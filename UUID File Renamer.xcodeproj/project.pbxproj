@@ -6,14 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F3601A432F1EFC7D00F0E45B /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3601A422F1EFC7D00F0E45B /* ScrechKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		F3185F002F1EF8C8007ADB6C /* Rename Files to UUID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rename Files to UUID.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3185F002F1EF8C8007ADB6C /* UUID File Renamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UUID File Renamer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F3185F022F1EF8C8007ADB6C /* Rename Files to UUID */ = {
+		F3185F022F1EF8C8007ADB6C /* UUID File Renamer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Rename Files to UUID";
+			path = "UUID File Renamer";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3601A432F1EFC7D00F0E45B /* ScrechKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +37,7 @@
 		F3185EF72F1EF8C8007ADB6C = {
 			isa = PBXGroup;
 			children = (
-				F3185F022F1EF8C8007ADB6C /* Rename Files to UUID */,
+				F3185F022F1EF8C8007ADB6C /* UUID File Renamer */,
 				F3185F012F1EF8C8007ADB6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +45,7 @@
 		F3185F012F1EF8C8007ADB6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3185F002F1EF8C8007ADB6C /* Rename Files to UUID.app */,
+				F3185F002F1EF8C8007ADB6C /* UUID File Renamer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +53,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3185EFF2F1EF8C8007ADB6C /* Rename Files to UUID */ = {
+		F3185EFF2F1EF8C8007ADB6C /* UUID File Renamer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3185F0B2F1EF8C9007ADB6C /* Build configuration list for PBXNativeTarget "Rename Files to UUID" */;
+			buildConfigurationList = F3185F0B2F1EF8C9007ADB6C /* Build configuration list for PBXNativeTarget "UUID File Renamer" */;
 			buildPhases = (
 				F3185EFC2F1EF8C8007ADB6C /* Sources */,
 				F3185EFD2F1EF8C8007ADB6C /* Frameworks */,
@@ -61,13 +66,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F3185F022F1EF8C8007ADB6C /* Rename Files to UUID */,
+				F3185F022F1EF8C8007ADB6C /* UUID File Renamer */,
 			);
-			name = "Rename Files to UUID";
+			name = "UUID File Renamer";
 			packageProductDependencies = (
+				F3601A422F1EFC7D00F0E45B /* ScrechKit */,
 			);
 			productName = "Rename Files to UUID";
-			productReference = F3185F002F1EF8C8007ADB6C /* Rename Files to UUID.app */;
+			productReference = F3185F002F1EF8C8007ADB6C /* UUID File Renamer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +91,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3185EFB2F1EF8C8007ADB6C /* Build configuration list for PBXProject "Rename Files to UUID" */;
+			buildConfigurationList = F3185EFB2F1EF8C8007ADB6C /* Build configuration list for PBXProject "UUID File Renamer" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -94,12 +100,15 @@
 			);
 			mainGroup = F3185EF72F1EF8C8007ADB6C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F3601A412F1EFC7C00F0E45B /* XCRemoteSwiftPackageReference "ScrechKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F3185F012F1EF8C8007ADB6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3185EFF2F1EF8C8007ADB6C /* Rename Files to UUID */,
+				F3185EFF2F1EF8C8007ADB6C /* UUID File Renamer */,
 			);
 		};
 /* End PBXProject section */
@@ -258,6 +267,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "UUID File Renamer";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -266,7 +276,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Rename-Files-to-UUID";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.UUID-File-Renamer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -291,6 +301,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "UUID File Renamer";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,7 +310,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Rename-Files-to-UUID";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.UUID-File-Renamer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -314,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3185EFB2F1EF8C8007ADB6C /* Build configuration list for PBXProject "Rename Files to UUID" */ = {
+		F3185EFB2F1EF8C8007ADB6C /* Build configuration list for PBXProject "UUID File Renamer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3185F092F1EF8C9007ADB6C /* Debug */,
@@ -323,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3185F0B2F1EF8C9007ADB6C /* Build configuration list for PBXNativeTarget "Rename Files to UUID" */ = {
+		F3185F0B2F1EF8C9007ADB6C /* Build configuration list for PBXNativeTarget "UUID File Renamer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3185F0C2F1EF8C9007ADB6C /* Debug */,
@@ -333,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3601A412F1EFC7C00F0E45B /* XCRemoteSwiftPackageReference "ScrechKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TopScrech/ScrechKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3601A422F1EFC7D00F0E45B /* ScrechKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3601A412F1EFC7C00F0E45B /* XCRemoteSwiftPackageReference "ScrechKit" */;
+			productName = ScrechKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F3185EF82F1EF8C8007ADB6C /* Project object */;
 }
