@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F3601A432F1EFC7D00F0E45B /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3601A422F1EFC7D00F0E45B /* ScrechKit */; };
+		F3D8592D2F45216100B2A3F7 /* AGENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = F3D859272F45216100B2A3F7 /* AGENTS.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3185F002F1EF8C8007ADB6C /* UUID File Renamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UUID File Renamer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D859272F45216100B2A3F7 /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
+		F3D8596B2F45219C00B2A3F7 /* UNLICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = UNLICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +40,8 @@
 		F3185EF72F1EF8C8007ADB6C = {
 			isa = PBXGroup;
 			children = (
+				F3D859272F45216100B2A3F7 /* AGENTS.md */,
+				F3D8596B2F45219C00B2A3F7 /* UNLICENSE.txt */,
 				F3185F022F1EF8C8007ADB6C /* UUID File Renamer */,
 				F3185F012F1EF8C8007ADB6C /* Products */,
 			);
@@ -84,7 +89,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					F3185EFF2F1EF8C8007ADB6C = {
 						CreatedOnToolsVersion = 26.2;
@@ -118,6 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D8592D2F45216100B2A3F7 /* AGENTS.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +174,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -193,6 +200,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -232,6 +240,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -250,6 +259,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -262,6 +272,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -296,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
