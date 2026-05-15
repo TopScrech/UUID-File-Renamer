@@ -39,8 +39,8 @@
 			isa = PBXGroup;
 			children = (
 				F3D859272F45216100B2A3F7 /* AGENTS.md */,
-				F3D8596B2F45219C00B2A3F7 /* UNLICENSE.txt */,
 				F3185F022F1EF8C8007ADB6C /* UUID File Renamer */,
+				F3D8596B2F45219C00B2A3F7 /* UNLICENSE.txt */,
 				F3185F012F1EF8C8007ADB6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -354,8 +354,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/TopScrech/ScrechKit";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
