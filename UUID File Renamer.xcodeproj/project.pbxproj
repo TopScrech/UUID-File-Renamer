@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 100;
+	objectVersion = 110;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F3601A432F1EFC7D00F0E45B /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3601A422F1EFC7D00F0E45B /* ScrechKit */; };
-		F3D8592D2F45216100B2A3F7 /* AGENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = F3D859272F45216100B2A3F7 /* AGENTS.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,7 +103,7 @@
 			packageReferences = (
 				F3601A412F1EFC7C00F0E45B /* XCRemoteSwiftPackageReference "ScrechKit" */,
 			);
-			preferredProjectObjectVersion = 100;
+			preferredProjectObjectVersion = 110;
 			productRefGroup = F3185F012F1EF8C8007ADB6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -118,7 +117,6 @@
 		F3185EFE2F1EF8C8007ADB6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				F3D8592D2F45216100B2A3F7 /* AGENTS.md in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -279,7 +277,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 14;
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.UUID-File-Renamer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -314,7 +312,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 14;
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.UUID-File-Renamer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
